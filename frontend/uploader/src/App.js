@@ -1,3 +1,4 @@
+import './App.css';
 import { InboxOutlined } from '@ant-design/icons';
 import { message, Upload } from 'antd';
 import React from 'react';
