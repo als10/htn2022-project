@@ -1,2 +1,1 @@
-# htn2022-project
-Project for Hack The North 2022!
+# Hack The North 2022 Project
