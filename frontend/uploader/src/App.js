@@ -7,7 +7,7 @@ import {
   Link
 } from "react-router-dom";
 import UploadPage from './pages/UploadPage'
-import Home from './pages/Home'
+import SummaryPage from './pages/SummaryPage'
 
 const App = () => (
   <Router>
@@ -26,11 +26,11 @@ const App = () => (
           </ul>
         </nav> */}
         <Switch>
-          <Route path="/upload">
-            <UploadPage />
+          <Route path="/summary">
+            <SummaryPage />
           </Route>
           <Route path="/">
-            <Home />
+            <UploadPage />
           </Route>
         </Switch>
       </div>
