@@ -8,7 +8,7 @@ const { Dragger } = Upload;
 const UploadButton = ({ setLoaded, setData }) => {
   const props = {
     name: 'file',
-    style: { width: '50%' },
+    style: { height: '100vh', width: '100%', background: '#4E4E50' },
     beforeUpload: async (file) => {
       setLoaded(false)
       const data = await pipeline(file)
@@ -39,10 +39,12 @@ const UploadButton = ({ setLoaded, setData }) => {
 
   return (
     <Dragger {...props}>
-      <p className="ant-upload-drag-icon">
-        <InboxOutlined />
+      <p className="ant-upload-drag-icon" style={{ margin: 32 }}>
+        <InboxOutlined style={{ color: '#C3073F', fontSize: 72 }} />
       </p>
-      <p className="ant-upload-text">Click or drag file to this area to upload</p>
+      <p className="ant-upload-text" style={{ margin: 32, fontSize: 18, color: '#950740' }}>
+        Click or drag file to this area to upload
+      </p>
     </Dragger>
   )
 };

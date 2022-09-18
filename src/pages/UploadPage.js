@@ -12,11 +12,16 @@ const UploadPage = () => {
   if (data) return <SummaryPage data={data} />
 
   return (
-    <div style={{ display: 'flex', flexDirection: 'row' }}>
-      <Typography.Title level={1} style={{ width: '50%' }}>
+    <div style={{ display: 'flex', flexDirection: 'row', background: '#1A1A1D' }}>
+      <Typography.Title
+        level={2}
+        style={{ color: '#C3073F', marginLeft: 32, width: '60%', height: '100vh', display: 'flex',  justifyContent:'center', alignItems:'center' }}
+      >
         Upload the audio from your lecture
       </Typography.Title>
-      <div style={{ width: '50%', display: 'flex',  justifyContent:'center', alignItems:'center' }}>
+      <div
+        style={{ width: '40%', height: '100vh', display: 'flex',  justifyContent:'center', alignItems:'center' }}
+      >
         {loaded
           ? <UploadButton setLoaded={setLoaded} setData={setData} />
           : <Loader />}
