@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/htn2022-project/static/css/main.b8e8f4f4.css",
+    "main.js": "/htn2022-project/static/js/main.b6c9ebe3.js",
+    "static/js/787.944d03ee.chunk.js": "/htn2022-project/static/js/787.944d03ee.chunk.js",
+    "index.html": "/htn2022-project/index.html",
+    "main.b8e8f4f4.css.map": "/htn2022-project/static/css/main.b8e8f4f4.css.map",
+    "main.b6c9ebe3.js.map": "/htn2022-project/static/js/main.b6c9ebe3.js.map",
+    "787.944d03ee.chunk.js.map": "/htn2022-project/static/js/787.944d03ee.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b8e8f4f4.css",
+    "static/js/main.b6c9ebe3.js"
+  ]
+}
