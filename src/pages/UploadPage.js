@@ -14,7 +14,7 @@ const UploadPage = () => {
   return (
     <div style={{ display: 'flex', flexDirection: 'row', background: '#1A1A1D' }}>
       <Typography.Title
-        level={1}
+        level={2}
         style={{ color: '#FFFFFF', marginLeft: 32, width: '50%', height: '100vh', display: 'flex',  justifyContent:'center', alignItems:'center' }}
       >
         {loaded ? 'Upload the audio from your lecture' : 'Generating summary...'}
