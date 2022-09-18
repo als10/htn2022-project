@@ -1,29 +1,36 @@
-import React from 'react'
+import { Divider, List, Typography } from 'antd';
+import React from 'react';
 
-const data = {
-    transcript: 'Hello, this is a lecture. This is not a tutorial. OKay bye. Hello, this is a lecture. This is not a tutorial. OKay bye. Hello, this is a lecture. This is not a tutorial. OKay bye.',
-    chapters: [
-        {
-            title: 'First Chapter',
-            summary: 'First chapter talks about the history behind something.'
-        },
-        {
-            title: 'Second Chapter',
-            summary: 'Second chapter is small.'
-        }
-    ]
-}
+const { Paragraph } = Typography;
 
-const SummaryPage = () => (
+const SummaryPage = ({ data }) => (
     <div>
-        <div>{data.transcript}</div>
-        {data.chapters.map((item) => (
-            <div>
-                <strong>{item.title}</strong>
-                <div>{item.summary}</div>
-            </div>
-
-        ))}
+        <Typography.Title level={1}>
+            Summary
+        </Typography.Title>
+        <Paragraph>{data.transcript}</Paragraph>
+        <Divider />
+        <ul
+            style={{
+                border: '1px solid rgba(140, 140, 140, 0.35)',
+            }}
+        >
+            {data.chapters.map((item) => (
+                <li>
+                    <Paragraph>{item.headline}</Paragraph>
+                </li>
+            ))}
+        </ul>
+            {/* {data.chapters.map((item) => (
+                <div>
+                    <Typography.Title level={3}>
+                        {item.gist}
+                    </Typography.Title>
+                    <Paragraph>
+                        {item.headline}
+                    </Paragraph>
+                </div>
+            ))} */}
     </div>
 )
 

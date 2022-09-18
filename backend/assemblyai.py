@@ -2,7 +2,7 @@ from pprint import pprint
 from time import sleep
 import requests
 
-API_KEY_ASSEMBLYAI = '20ef789fd6e14c008364e2d634523756'
+API_KEY_ASSEMBLYAI = 'cd73c652ca7a4e6282e588cc8d5cee6d'
 
 upload_endpoint = 'https://api.assemblyai.com/v2/upload'
 transcript_endpoint = 'https://api.assemblyai.com/v2/transcript'
@@ -73,3 +73,5 @@ def pipeline(filename):
     if result: return result
     print('Still processing! Trying again after 60 seconds...')
     sleep(60)
+
+pipeline('./test_short.m4a')
