@@ -6,7 +6,7 @@ const Loader = () => (
       size={96}
       lineWeight={3.5}
       speed={1} 
-      color="black" 
+      color="white" 
     />
   </div>
 )
