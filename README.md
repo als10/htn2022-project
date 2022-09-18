@@ -1,3 +1,35 @@
+HTN 2022 Project: LecSum
+
+Contributors:
+1. Alston D'Mello
+2. Edward Wang
+3. Aiden Ramgoolam. 
+
+## Inspiration
+As students faced with hybrid/online schooling, over the past 3 years, due to the Pandemic, watching hours of video lectures, can no doubt, be extremely daunting. Furthermore, post pandemic, the same goes for recorded lectures. As such, we've designed a convenient, intelligent solution. 
+
+## What it does
+LecSum, a website which produces textual summaries of video lectures, using the AssemblyAI API. 
+Lecsum allows students to study smart, and save time, in which they can focus in academic pursuits elsewhere. 
+
+## How we built it
+We used AssemblyAI to convert the speech to text and then to summarize the text and generate chapters. The frontend was developed using React and the web app was deployed on GitHub Pages.
+
+## Challenges we ran into:
+Our main challenge arose whilst coding the backend i.e. implementing the backend with Cockroach DB. Unfortunately, the timeframe was too short to completely understand and implement it, error-free. However, this is something that we look forward to learning and would like to use it in the future.
+
+## Accomplishments that we're proud of
+This was the first time we worked with an Artificial Intelligence API and so we are quite proud of how we were able to build a functioning product with reasonable accuracy in such a short amount of time.
+
+## What we learned
+We learned how to use third-party APIs to make complex tasks easy to implement. We also learned how to design UIs in Figma and then implement them using React. 
+
+## What's next for LecSum
+- Allowing users to create accounts and the ability to save all their summarized lectures in their profile.
+- Real-time speech to text transcription and summarization. 
+- Extend the app (make it more general), to allow summarizations of meetings etc. 
+- add in the cohere AI API. 
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
