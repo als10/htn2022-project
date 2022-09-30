@@ -5,9 +5,6 @@ Contributors:
 2. Edward Wang
 3. Aiden Ramgoolam. 
 
-## Live Demo
-A live demo is available [here](https://als10.github.io/htn2022-project/).
-
 ## Inspiration
 As students faced with hybrid/online schooling, over the past 3 years, due to the Pandemic, watching hours of video lectures, can no doubt, be extremely daunting. Furthermore, post pandemic, the same goes for recorded lectures. As such, we've designed a convenient, intelligent solution. 
 
@@ -32,6 +29,9 @@ We learned how to use third-party APIs to make complex tasks easy to implement. 
 - Real-time speech to text transcription and summarization. 
 - Extend the app (make it more general), to allow summarizations of meetings etc. 
 - add in the cohere AI API. 
+
+## Live Demo
+A live demo is available [here](https://als10.github.io/htn2022-project/).
 
 # Getting Started with Create React App
 
